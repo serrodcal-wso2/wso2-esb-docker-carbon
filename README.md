@@ -1,6 +1,6 @@
 # wso2-esb-docker-carbon
 
-Proof of concept for build docker image using spotify/dockerfile-maven plugin.
+Proof of concept to build docker image using spotify/dockerfile-maven plugin.
 
 Clone this repository in your local and run `$ mvn clean package dockerfile:build` to build Docker image. After thar, you have to run image `$ docker run -it serrodcal/docker-carbon:1.0.0`.
 
